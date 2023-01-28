@@ -1,16 +1,16 @@
 {
-  "name": "natours",
+  "name": "Tourism",
   "version": "1.0.0",
-  "description": "Learning node, express and mongoDB",
+  "description": "A webApp written in nodeJS,JS,mongoose API",
   "main": "app.js",
   "scripts": {
     "start": "nodemon server.js",
     "start:prod": "NODE_ENV=production nodemon server.js",
     "debug": "ndb server.js",
     "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js --public-url .",
-    "build:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js --public-url ."
+    "build:js": "parcel build ./public/js/index.js --out-dir ./public/js --out-file bundle.js --public-url ."
   },
-  "author": "vin",
+  "author": "vinos",
   "license": "ISC",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
